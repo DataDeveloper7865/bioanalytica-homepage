@@ -35,7 +35,13 @@ function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Home
+          </Typography>
+          <Typography variant="h6" className={classes.title}>
+            About
+          </Typography>
+          <Typography variant="h6" className={classes.title}>
+            Contact
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
