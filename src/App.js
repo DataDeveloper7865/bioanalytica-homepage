@@ -1,12 +1,14 @@
 import "./App.css";
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Header from "./Header.js";
+import NavBar from "./NavBar.js";
+import About from './components/About';
 
 function App() {
   return (
     <Grid>
-      <Header />
+      <NavBar />
+      <About />
     </Grid>
   );
 }
