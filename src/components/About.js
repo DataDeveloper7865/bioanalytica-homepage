@@ -33,26 +33,18 @@ function About() {
         <div className={classes.root} >
             <Grid container className={classes.content}>
                 <Grid item xs={12} md={12}>
-                    <Paper className={classes.title}>
                     <Typography variant="h5" className={classes.title}>
                         About
                     </Typography>
-                    </Paper>
                 </Grid>
                 <Grid item xs={12} md={4}>
-                    <Paper className={classes.paper} >
-                        <ContentPlaceHolder />
-                    </Paper>
+                    <ContentPlaceHolder className={classes.title}/>
                 </Grid>
                 <Grid item xs={12} md={4}>
-                    <Paper className={classes.paper} >
-                        <ContentPlaceHolder />
-                    </Paper>
+                    <ContentPlaceHolder />
                 </Grid>
                 <Grid item xs={12} md={4}>
-                    <Paper className={classes.paper} >
-                        <ContentPlaceHolder />
-                    </Paper>
+                    <ContentPlaceHolder />
                 </Grid>
             </Grid>
         </div>
