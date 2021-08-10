@@ -1,6 +1,5 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Typography from "@material-ui/core/Typography";
 import ContentPlaceHolder from '../content/ContentPlaceHolder';
 import { makeStyles } from "@material-ui/core/styles";
@@ -39,15 +38,13 @@ function Footer() {
                     </Typography>
                 </Grid>
                 <Grid item xs={12} md={4}>
-                        <ContentPlaceHolder />
+                    <ContentPlaceHolder />
                 </Grid>
                 <Grid item xs={12} md={4}>
-                        <ContentPlaceHolder />
+                    <ContentPlaceHolder />
                 </Grid>
                 <Grid item xs={12} md={4}>
-                    
-                        <ContentPlaceHolder />
-                    
+                    <ContentPlaceHolder />
                 </Grid>
             </Grid>
         </div>
