@@ -5,6 +5,7 @@ import NavBar from "./NavBar.js";
 import About from './components/About';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Services />
       <Footer />
     </Grid>
   );
