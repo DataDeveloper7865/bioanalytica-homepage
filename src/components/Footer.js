@@ -34,7 +34,7 @@ function Footer() {
             <Grid container className={classes.content}>
                 <Grid item xs={12} md={12}>
                     <Typography variant="h5" className={classes.title}>
-                        About
+                        Contact
                     </Typography>
                 </Grid>
                 <Grid item xs={12} md={4}>
