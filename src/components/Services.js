@@ -10,6 +10,9 @@ const useStyles = makeStyles((theme) => ({
         minHeight: '500px'
     },
     content: {
+        display: 'flex',
+        alignItems: 'stretch',
+        alignContent: 'center'
     },
     paper: {
         padding: theme.spacing(2),
