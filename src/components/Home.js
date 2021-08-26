@@ -49,6 +49,7 @@ function Home() {
                     <Typography variant="h5" className={classes.title}>
                         Together.
                     </Typography>
+                    HELLO WORLD FROM CLOUD BUILD + APP ENGINE + GITHUB
                 </Grid>
                 <Grid item xs={12} md={6} className={classes.rightContent}>
                     {/* backgournd image */}
